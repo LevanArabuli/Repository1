@@ -26,7 +26,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-```
+```javascript
 const { createProvider } = require('./provider')
 const { createConsumer } = require('./consumer')
 
