@@ -26,6 +26,16 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+```
+const { createProvider } = require('./provider')
+const { createConsumer } = require('./consumer')
+
+module.exports = {
+    createProvider,
+    createConsumer,
+}
+```
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
